@@ -37,7 +37,7 @@
 /* baudrate settings are defined in <asm/termbits.h>, which is included by <termios.h> */
 /* change this definition for the correct port */
 
-#define MODEMDEVICE "/dev/ttyS0"
+#define MODEMDEVICE "/dev/ttyUSB0"
 
 #define _POSIX_SOURCE 1 /* POSIX compliant source */
 
